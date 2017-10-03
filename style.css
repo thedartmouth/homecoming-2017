@@ -38,8 +38,35 @@ video {
   width: 100vw;
 }
 
-audio {
+.video {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+}
 
+.alma-mater {
+  background-color: blue;
+  position: absolute;
+}
+
+.overlay {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: center;
+  margin: 0;
+  width: 100vw;
+  position: absolute;
+  color: white;
+}
+
+.overlay p {
+  padding-right: 50px;
+}
+
+audio {
+  padding: 0 50px 50px 0;
 }
 
 @media only screen and (max-width: 480px)
