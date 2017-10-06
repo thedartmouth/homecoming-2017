@@ -1,10 +1,43 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgba(100,100,100,.6);
 }
 
 .home {
   width: 100vw;
+  background-image: url('leaves3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 800px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 70px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.home p {
+  padding: 0 150px 100px 0px;
+}
+
+.home i {
+  transition: .5s;
+}
+
+.home i:hover {
+  color: black;
 }
 
 a {
@@ -14,6 +47,7 @@ a {
 
 nav {
   width: 100%;
+  font-family: 'Cinzel'
 }
 
 nav ul {
@@ -24,7 +58,7 @@ nav ul {
   justify-content: space-between;
   align-items: center;
   margin: 0;
-  padding: .7em;
+  padding: 20px 60px 20px 60px;
   font-size: 30px;
 	top: 0;
   left: 0;
@@ -32,41 +66,31 @@ nav ul {
   position: absolute;
 }
 
-video {
-  padding: 0;
-  margin: 0;
-  width: 100vw;
+nav a:hover {
+  color: red;
 }
 
-.video {
-  display: flex;
-  flex-flow: column;
-  justify-content: flex-end;
+.slider {
+  
 }
 
-.alma-mater {
-  background-color: blue;
-  position: absolute;
+.slider-wrapper {
+  padding: 50px 150px 50px 150px;
 }
 
-.overlay {
-  display: flex;
-  flex-flow: column;
-  align-items: flex-end;
-  justify-content: flex-end;
-  text-align: center;
-  margin: 0;
-  width: 100vw;
-  position: absolute;
-  color: white;
+.article-slide {
+  background-color: rgba(255,255,255,.2);
+  margin: 0 10px 0 10px;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
 }
 
-.overlay p {
-  padding-right: 50px;
+.article-slide img {
+  max-width: 100%;
 }
 
-audio {
-  padding: 0 50px 50px 0;
-}
+
+
 
 @media only screen and (max-width: 480px)
