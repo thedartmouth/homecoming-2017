@@ -100,10 +100,11 @@ nav a {
 }
 
 nav ul {
+  text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
 	list-style-type: none;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   margin: 0;
@@ -124,42 +125,58 @@ nav a:hover {
   color: #F45D01;
 }
 
+.slider-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .slider-wrapper {
-  padding: 50px 150px 50px 150px;
+  padding: 50px 0px 50px 0px;
+  width: 80%;
 }
 
 .article-slide {
   font-family: 'PT Serif';
-  background-color: rgba(0,105,62,.2);
+  background-color: #26A65B;
   margin: 0 10px 0 10px;
-  padding: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   transition: .5s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  z-index: 100;
+}
+
+.text {
+  padding: 30px;
 }
 
 .article-slide:hover {
-  background-color: rgba(0,105,62,.5);
+  background-color: rgba(38, 166, 91, .8); 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .article-slide img {
+  border-radius: 15px 15px 0 0;
   max-width: 100%;
 }
 
 .slide-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
 
 .slide-author {
   font-size: 18px;
-  color: black;
+  color: white;
 }
 
 .slide-snippet {
-  color: black;
+  color: white;
 }
 
 
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 1024px) {
+
+}
