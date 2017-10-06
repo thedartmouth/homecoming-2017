@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgba(100,100,100,.6);
 }
 
 .hidden {
@@ -46,7 +45,7 @@ video {
 }
 
 .overlay i:hover {
-  color: black;
+  color: #F45D01;
 }
 
 .home {
@@ -83,17 +82,21 @@ button {
 }
 
 .home i:hover {
-  color: black;
+  color: #F45D01;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 nav {
   width: 100%;
   font-family: 'Cinzel';
+}
+
+nav a {
+  color: white;
 }
 
 nav ul {
@@ -118,7 +121,7 @@ nav a {
 }
 
 nav a:hover {
-  color: red;
+  color: #F45D01;
 }
 
 .slider-wrapper {
@@ -126,7 +129,8 @@ nav a:hover {
 }
 
 .article-slide {
-  background-color: rgba(255,255,255,.2);
+  font-family: 'PT Serif'
+  background-color: rgba(0,105,62,.2);
   margin: 0 10px 0 10px;
   padding: 30px;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -135,6 +139,24 @@ nav a:hover {
 
 .article-slide img {
   max-width: 100%;
+}
+
+.slide-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: "PT Serif", serif;
+}
+
+.slide-author {
+  font-size: 18px;
+  color: black;
+  font-family: "PT Serif", serif;
+}
+
+.slide-snippet {
+  color: black;
+  font-family: "PT Serif", serif;
 }
 
 
