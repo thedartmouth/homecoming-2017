@@ -129,7 +129,7 @@ nav a:hover {
 }
 
 .article-slide {
-  font-family: 'PT Serif'
+  font-family: 'PT Serif';
   background-color: rgba(0,105,62,.2);
   margin: 0 10px 0 10px;
   padding: 30px;
@@ -145,18 +145,15 @@ nav a:hover {
     font-size: 20px;
     font-weight: bold;
     color: black;
-    font-family: "PT Serif", serif;
 }
 
 .slide-author {
   font-size: 18px;
   color: black;
-  font-family: "PT Serif", serif;
 }
 
 .slide-snippet {
   color: black;
-  font-family: "PT Serif", serif;
 }
 
 
